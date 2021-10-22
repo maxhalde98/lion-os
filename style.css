@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    min-width: 1190px;
+}
+
+.header {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding-left:200px;
+    padding-right: 200px;
+    height: 400px;
+    flex: 0 0 auto;
+    min-width: 790px;
+    font-family: Ubuntu, sans-serif;
+}
+
+.top-header {
+    display: flex;
+    flex: 0 0 auto;
+    height: 60px;
+    margin: 0;
+    padding-top: 10px;
+}
+
+a {
+    color: #E5E7EB;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.header-logo {
+    max-width: 50px;
+    max-height: 50px;
+}
+
+.header-links {
+    display: flex;
+    margin-left: auto;
+    gap: 18px;
+    flex-shrink:0;
+}
+
+.header-photo {
+    border: 2px solid rgb(236, 108, 22);
+}
+
+.header-content {
+    display: flex;
+    height: 240px;
+    padding-top: 20px;
+    padding-bottom: 70px;
+    flex-shrink: 0;
+}
+
+.left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    flex-shrink: 0;
+}
+
+.right {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    flex: 1 1 auto;
+}
+
+.title-left {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: bolder;
+    flex-shrink: 0;
+}
+
+.description {
+    color: #E5E7EB;
+    font-size: 18px;
+    flex-shrink: 0;
+}
+
+button {
+    background-color: #3882f6;
+    color: #E5E7EB;
+    font-size: 18px;
+    font-family: inherit;
+    border-radius: 10px;
+    border-color: #3882f6;
+    width: 120px;
+    margin-top:auto;
+}
+
+.body-one {
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    font-family: Ubuntu, sans-serif;
+    padding-left:200px;
+    padding-right: 200px;
+    min-width: 775px;
+}
+
+.body-title {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: bolder;
+    align-self: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.items {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+.item-images {
+    max-width: 150px;
+    height: 104px;
+    border: 2px solid #1F2937;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+    max-width: 150px;
+}
+
+.body-two {
+    height: 325px;
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    padding-left:200px;
+    padding-right:200px;
+    gap: 12px;
+    flex: 0 0 auto;
+    min-width: 790px;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1f2937;
+    font-family: Ubuntu, sans-serif;
+    font-style: italic;
+    font-weight: lighter;
+    margin-top: auto;
+    display: flex;
+}
+
+.author {
+    font-size: 24px;
+    font-family: Ubuntu, sans-serif;
+    color: #1F2937;
+    font-weight: bold;
+    margin-left: auto;
+    margin-bottom: auto;
+}
+
+.body-three {
+    height: 250px;
+    min-width: 790px;
+    padding-left:200px;
+    padding-right:200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container {
+    background-color: #3882f6;
+    height:125px;
+    display: flex;
+    border-radius: 8px;
+    gap: 18px;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.text-title {
+    color: #e5e7eb;
+    font-family: Ubuntu, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.text {
+    color: #e5e7eb;
+    font-family: Ubuntu, sans-serif;
+    font-size: 18px;
+}
+
+.button-container {
+    font-family: Ubuntu, sans-serif;
+    padding: 24px;
+    display: flex;
+}
+
+.button-two {
+    border: 2px solid #e5e7eb;
+    margin-bottom: auto;
+}
+
+.footer {
+    height: 80px;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-size: 18px;
+    font-family: Ubuntu, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left:200px;
+    padding-right: 200px;
+    min-width: 790px;
+}
